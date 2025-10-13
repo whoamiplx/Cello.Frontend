@@ -19,7 +19,7 @@ function CustomDrawerContent(props: DrawerContentComponentProps) {
     <DrawerContentScrollView {...props}>
       {/* Profile Header */}
       <TouchableOpacity
-        onPress={() => router.push("/profile-info")}
+        onPress={() => router.push("./profile-info")}
         style={{
           paddingHorizontal: 16,
           paddingVertical: 20,
